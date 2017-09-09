@@ -1,0 +1,59 @@
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+body {
+ background: url(./images/image1.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.image{
+  width: 50%;
+  float: left;
+}
+
+.text {
+  width: 50%;
+  float: left;
+}
+
+div.text1::before {
+  content: 'Dota is a competitive game of action and strategy, played both professionally and casually by millions of passionate fans worldwide. Players pick from a pool of over a hundred heroes, forming two teams of five players.';
+}
+
+div.text2::before {
+  content: 'Counter-Strike: Global Offensive (CS: GO) засновується на тій самій ігровій механіці, що привела серію до успіху 15 років тому. CS: GO пропонує як нові мапи, персонажів і зброю, так і сучасну переробку класики серії CS (de_dust та інші). Окрім того, в CS: GO введені нові ігрові режими, пошук матчів, таблиці рекордів і багато іншого.';
+}
+
+div.text3::before {
+  content: 'карткова онлайн-гра за мотивами всесвіту Warcraft, розроблена компанією «Blizzard Entertainment» і поширювана за моделлю free-to-play. Гра розповсюджується через Battle.net. Продукт випущений на PC, OS X, iOS та Android. Версія гри для iPad та iOS доступна для завантаження в App Store. Станом на серпень 2015 року прибуток «Blizzard Entertainment» від Hearthstone: Heroes of Warcraft оцінюється у 20 мільйонів доларів щомісячно';
+}
+
+.game {
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.music {
+  background: center;
+  margin-left: 850px;
+  margin-top: 300px;
+}
+
+.lel {
+  width: 100%;
+  text-align: center;
+}
+.lql {
+  width: 100%;
+  text-align: center;
+}
+
+.lal {
+  width: 100%;
+  text-align: center;
+}
